@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2FAA6F3D1F21AB31003F85E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA6F3C1F21AB31003F85E5 /* AppDelegate.swift */; };
-		2FAA6F3F1F21AB31003F85E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA6F3E1F21AB31003F85E5 /* ViewController.swift */; };
 		2FAA6F421F21AB31003F85E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAA6F401F21AB31003F85E5 /* Main.storyboard */; };
 		2FAA6F441F21AB31003F85E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAA6F431F21AB31003F85E5 /* Assets.xcassets */; };
 		2FAA6F471F21AB31003F85E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAA6F451F21AB31003F85E5 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		2FAA6F391F21AB31003F85E5 /* DouYuZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FAA6F3C1F21AB31003F85E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FAA6F3E1F21AB31003F85E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FAA6F411F21AB31003F85E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FAA6F431F21AB31003F85E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FAA6F461F21AB31003F85E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		2FAA6F3B1F21AB31003F85E5 /* DouYuZhiBo */ = {
 			isa = PBXGroup;
 			children = (
+				2FAA6F4E1F21E1C1003F85E5 /* Classes */,
 				2FAA6F3C1F21AB31003F85E5 /* AppDelegate.swift */,
-				2FAA6F3E1F21AB31003F85E5 /* ViewController.swift */,
 				2FAA6F401F21AB31003F85E5 /* Main.storyboard */,
 				2FAA6F431F21AB31003F85E5 /* Assets.xcassets */,
 				2FAA6F451F21AB31003F85E5 /* LaunchScreen.storyboard */,
 				2FAA6F481F21AB31003F85E5 /* Info.plist */,
 			);
 			path = DouYuZhiBo;
+			sourceTree = "<group>";
+		};
+		2FAA6F4E1F21E1C1003F85E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2FAA6F521F21E1C1003F85E5 /* Main */,
+				2FAA6F501F21E1C1003F85E5 /* Home */,
+				2FAA6F511F21E1C1003F85E5 /* Live */,
+				2FAA6F4F1F21E1C1003F85E5 /* Follow */,
+				2FAA6F531F21E1C1003F85E5 /* Profile */,
+				2FAA6F541F21E1C1003F85E5 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2FAA6F4F1F21E1C1003F85E5 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		2FAA6F501F21E1C1003F85E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2FAA6F511F21E1C1003F85E5 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		2FAA6F521F21E1C1003F85E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2FAA6F531F21E1C1003F85E5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2FAA6F541F21E1C1003F85E5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FAA6F3F1F21AB31003F85E5 /* ViewController.swift in Sources */,
 				2FAA6F3D1F21AB31003F85E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,8 +313,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = R65QR7TW7P;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohan.cn.DouYuZhiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,8 +328,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = R65QR7TW7P;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohan.cn.DouYuZhiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
